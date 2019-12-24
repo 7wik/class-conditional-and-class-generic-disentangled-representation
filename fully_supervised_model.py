@@ -225,4 +225,5 @@ def train():
             print ("created the file--------------------------------------")
         torch.save(prob, "./classifier_model/wz_supervised/model")
         # break
-train()
+if __name__=="__main__":
+    train()
