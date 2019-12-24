@@ -20,7 +20,7 @@ import subprocess
 import copy
 import socket
 from fully_supervised_model import* 
-from data import *
+#from data import *
 st=-10
 en= 10
 ga= 2
