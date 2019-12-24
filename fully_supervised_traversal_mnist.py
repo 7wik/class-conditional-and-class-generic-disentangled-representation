@@ -63,7 +63,7 @@ def dim_traversal(opts,z_mu,w_mu,start=-1,end=1,gap=1.0/6,variable='z'):
 def traversal_visualize(opts):
     # opts['model']=torch.load('/home/satwik/xentropy/results/'+opts['data']['data']+'/'+opts['data']['model']+'/2/model0')
     # opts['model']=torch.load('/home/satwik/xentropy/classifier_model/fully_supervised_model/model')
-    opts['model']=torch.load('/home/satwik/xentropy/classifier_model/wz_supervised/model')
+    opts['model']=torch.load('./classifier_model/wz_supervised/model')
     opts['model'].eval()
     s='/home/satwik/xentropy/classifier_model/classifier' +'/z_traversal_supervised'+str(st)+'+'+str(en)+'/'
     r='/home/satwik/xentropy/classifier_model/classifier' +'/w_traversal_supervised'+str(st)+'+'+str(en)+'/'
